@@ -1,5 +1,4 @@
-body{
-	margin-right: 0;
+*,html,body{
 	overflow-x: hidden;
 }
 .jadwal, .course, .footer{
