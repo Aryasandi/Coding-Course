@@ -71,3 +71,8 @@ section{
 .kanan {
   font-size: 12px;
 }
+.lottie{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
