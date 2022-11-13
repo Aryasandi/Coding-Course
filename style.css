@@ -1,6 +1,13 @@
 *,html,body{
-	overflow-x: hidden;
+  overflow-x:hidden;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
 .jadwal, .course, .footer{
 	background-color: #1a355f;
 }
@@ -54,4 +61,13 @@ section{
 .sosmed{
 	text-align: center;
 	margin-top: 10px;
+}
+
+
+.alasan{
+  font-size: 20px;
+}
+.kiri,
+.kanan {
+  font-size: 12px;
 }
