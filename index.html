@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+	<title>DZ Course</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand m-1" href="#home"><i class="bi bi-code-slash m-2"></i>DZ Course</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#course">Course</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#jadwal">Jadwal Belajar</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Dropdown Menu
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#biaya">Biaya Program</a></li>
+							<li><a class="dropdown-item" href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+<!-- 
+	<div class="d-md-flex justify-content-md-end fixed-bottom">
+		<button class="btn btn-dark me-md-2 fs-5" type="button"><a href="#home"><i class="bi bi-arrow-up-circle text-light"></i></a></button>
+	</div> -->
+
+	<section class="container home text-center heading" id="home">
+		<div class="row">
+			<div class="col">
+				<h1 class="fs-5 mt-5 text-center">DZ Program</h1>
+				<h2 class="fs-1">Jago Dulu, Bayar<br> Nanti.</h2>
+				<p class="mt-3 fs-3 text-center">Raih karir impianmu sebagai programmer profesional tanpa khawatir soal biaya.<br>belajar sekarang, bayar nanti.</p>
+				<button type="button" class="btn btn-warning btn-sm fs-5 p-2 rounded-pill mb-4 p-2">Daftar Sekarang</button>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="course container-fluid" id="course">
+		<div class="jumbotron jumbotron-fluid text-light text-center mt-4">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<h1 class="display-4 text-center fs-2 fw-bold p-2 mt-5">DZ Program</h1>
+						<p class="lead text-center">Tersedia <span>3 pilihan kelas bootcamp</span> sesuai kebutuhan dan keinginan kamu.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-dark" data-aos="fade-in" data-aos-duration="1000">
+					<div class="card p-3 m-5 border-dark ">
+						<div class="card-body">
+							<h5 class="card-title text-dark mt-1"><i class="bi bi-code-slash m-2 fs-1"></i><br>Frontend<br>Developer</h5>
+							<p class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-dark" data-aos="fade-in" data-aos-duration="1000"  data-aos-delay="200">
+					<div class="card p-3 m-5 border-dark">
+						<div class="card-body">							<h5 class="card-title text-dark mt-1"><i class="bi bi-code-slash m-2 fs-1"></i><br>Backend<br>Developer</h5>
+							<p class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-dark" data-aos="fade-in" data-aos-duration="1000"  data-aos-delay="400">
+					<div class="card p-3 m-5 border-dark">
+						<div class="card-body">
+							<h5 class="card-title text-dar
+
+							k mt-1"><i class="bi bi-palette m-2 fs-1"></i></i><br>UI/UX<br>Designer</h5>
+							<p class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="alasan">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col">
+					<h2 class="mt-4">Mengapa DZ Program?</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col text-center mt-4" data-aos="fade-right" data-aos-duration="1000">
+					<h1>Harga Terjangkau</h1>
+					<p>Dengan harga yang terjangkau, kamu sudah bisa mengikuti kelas dari kami. Ingat "Belajar sekarang, bayar nanti."</p>	
+				</div>
+				<div class="col text-center mt-4" data-aos="fade-left" data-aos-duration="1000">
+					<h1>Kualitas Terjamin</h1>
+					<p>Jangan khawatir, kamu akan dibimbing oleh mentor yang profesional, dan akan dibimbing sampai 100% paham.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- jadwal -->
+	<div class="jadwal jumbotron jumbotron-fluid" id="jadwal">
+		<div class="container text-light text-center">
+			<h1 class="display-4 fw-bold fs-2 p-5">Jadwal Belajar</h1>
+
+			<div class="row">
+				<div class="col-md-4" data-aos="fade-down" data-aos-duration="1000">
+					<div class="card p-2 mb-5">
+						<div class="card-body text-dark">
+							<h5 class="card-title">Front End Developer</h5>
+							<p class="card-text">Senin-Jumat:<br>09:00 - 17:00  WIB</p>
+							<a href="#" class="btn btn-warning">Daftar</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="150">
+					<div class="card p-2 mb-5">
+						<div class="card-body text-dark">
+							<h5 class="card-title">Back End Developer</h5>
+							<p class="card-text">Senin-Jumat:<br>09:00 - 17:00  WIB</p>
+							<a href="#" class="btn btn-warning">Daftar</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+					<div class="card p-2 mb-5">
+						<div class="card-body text-dark">
+							<h5 class="card-title">UI/UX Developer</h5>
+							<p class="card-text">Senin-Jumat:<br>09:00 - 17:00 WIB</p>
+							<a href="#" class="btn btn-warning">Daftar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- jadwal -->
+
+
+	<!-- biaya -->
+	<section id="biaya">
+
+		<div class="container shadow-p">
+			<div class="row">
+				<div class="col">
+					<h1 class="display-4 text-center fs-2 fw-bold p-2 mt-5">Biaya Program</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-md-4 text-dark" data-aos="fade-in" data-aos-duration="2000">
+				<div class="card p-3 m-5 shadow p-3 mb-5 bg-body rounded outline-dark border-secondary">
+					<div class="card-body">
+						<h5 class="card-title text-dark mt-1">Frontend Developer</h5>
+						<h1 class="merah text-decoration-line-through fs-5">Rp. 3.000.000</h2>
+							<h2 class="hijau">Rp 1.500.000</h1 >
+
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 text-dark" data-aos="fade-in" data-aos-duration="2000">
+						<div class="card p-3 m-5 shadow p-3 mb-5 bg-body rounded outline-dark border-secondary">
+							<div class="card-body">
+								<h5 class="card-title text-dark mt-1">Backend Developer</h5>
+								<h1  class="merah text-decoration-line-through fs-5">Rp. 4.000.000</h1 >
+								<h2 class="hijau">Rp 2.000.000</h2>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 text-dark" data-aos="fade-in" data-aos-duration="3000">
+						<div class="card p-3 m-5 shadow p-3 mb-5 bg-body rounded outline-dark border-secondary">
+							<div class="card-body">		<h5 class="card-title text-dark mt-1">UI/UX Designer</h5>
+								<h1  class="merah text-decoration-line-through fs-5">Rp. 2.000.000</h1 >
+								<h2 class="hijau">Rp 1.000.000</h2>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- biaya -->
+
+		<div class="footer" id="contact">
+			<footer class="text-center text-white">
+				<!-- Grid container -->
+				<div class="container pb-0">
+					<!-- Section: Social media -->
+					<section class="mb-4">
+						<!-- Facebook -->
+						<a
+						class="btn text-white btn-floating m-1"
+						style="background-color: #3b5998;"
+						href="#!"
+						role="button"
+						><i class="fab fa-facebook-f"></i
+						></a>
+
+						<!-- Twitter -->
+						<a
+						class="btn text-white btn-floating m-1"
+						style="background-color: #55acee;"
+						href="#!"
+						role="button"
+						><i class="fab fa-twitter"></i
+						></a>
+
+						<!-- Google -->
+						<a
+						class="btn text-white btn-floating m-1"
+						style="background-color: #dd4b39;"
+						href="#!"
+						role="button"
+						><i class="fab fa-google"></i
+						></a>
+
+						<!-- Instagram -->
+						<a
+						class="btn text-white btn-floating m-1"
+						style="background-color: #ac2bac;"
+						href="#!"
+						role="button"
+						><i class="fab fa-instagram"></i
+						></a>
+
+						<!-- Linkedin -->
+						<a
+						class="btn text-white btn-floating m-1"
+						style="background-color: #0082ca;"
+						href="#!"
+						role="button"
+						><i class="fab fa-linkedin-in"></i
+						></a>
+						<!-- Github -->
+						<a
+						class="btn text-white btn-floating m-1"
+						style="background-color: #333333;"
+						href="#!"
+						role="button"
+						><i class="fab fa-github"></i
+						></a>
+					</section>
+					<!-- Section: Social media -->
+				</div>
+				<!-- Grid container -->
+
+				<!-- Copyright -->
+				<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+					© 2022 Copyright:
+					<a class="text-white text-decoration-none">Arya Sandi</a>
+				</div>
+				<!-- Copyright -->
+			</footer>
+		</div>
+		<script src="script.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+		<!--<p class="text-center mt-3">Created With <i class="bi bi-heart-fill"></i> By Arya Sandi.</p> -->
+
+	</body>
+	</html>

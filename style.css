@@ -1,0 +1,58 @@
+body{
+	margin-right: 0;
+	overflow-x: hidden;
+}
+.jadwal, .course, .footer{
+	background-color: #1a355f;
+}
+
+span{ font-weight: bold;
+
+}
+
+.heading{
+	padding-top: 4rem;
+}
+section{
+	padding-top: 4rem;
+}
+.jadwal{
+	padding-top: 2.5rem;
+}
+
+.logofe{
+	width: 50%;
+	height: 50%;
+}
+
+.images{
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+
+.logobe{
+	width: 20%;
+	height: 20%;
+}
+
+
+.socmed{
+	font-size: 25px;
+	margin: 15px 5px 0 5px;
+}
+
+.merah{
+	color: red;
+	text-align: center;
+}
+
+.hijau{
+	color: green;
+}
+
+.sosmed{
+	text-align: center;
+	margin-top: 10px;
+}
