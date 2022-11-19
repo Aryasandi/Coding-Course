@@ -1,9 +1,9 @@
 *,html,body{
-  overflow-x:hidden;
+	overflow-x:hidden;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 
 
@@ -65,14 +65,14 @@ section{
 
 
 .alasan{
-  font-size: 20px;
+	font-size: 20px;
 }
 .kiri,
 .kanan {
-  font-size: 12px;
+	font-size: 12px;
 }
 .lottie{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
